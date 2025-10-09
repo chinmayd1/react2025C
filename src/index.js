@@ -1,18 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import App2 from './App2';
+import Hello from './Hello';
+import HelloClass from './HelloClass';
+import FunctionClick from './FunctionClick';
+
 import Welcome from './Welcome';
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
     <App2/>
     <Welcome/>
-    <Welcome/>
+    <Hello/>
+    <HelloClass/>
+    <FunctionClick/>
   </React.StrictMode>
 );
 
