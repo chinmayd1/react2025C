@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App2 from './App2';
-import Hello from './Hello';
-import HelloClass from './HelloClass';
-import FunctionClick from './FunctionClick';
+//import App from './App';
+// import App2 from './App2';
+// import Hello from './Hello';
+// import HelloClass from './HelloClass';
+// import FunctionClick from './FunctionClick';
+import Greetings from './Greetings';
 
 import Welcome from './Welcome';
 import reportWebVitals from './reportWebVitals';
@@ -13,11 +15,15 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App2/>
+    {/* <App2/>
+    <Welcome/>
     <Welcome/>
     <Hello/>
     <HelloClass/>
-    <FunctionClick/>
+    <FunctionClick/> */}
+    <Greetings name ="chinmay" course="react" language = "marathi"/> 
+    <Greetings name ="sarika" course="pansare" language = "marathi"/>
+    <Greetings name ="ninad" course="dani" language = "marathi"/>
   </React.StrictMode>
 );
 

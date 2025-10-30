@@ -2,8 +2,9 @@ import React from "react";
 
 
 let FunctionClick =()=>{
+    // handler
     function clickHandler(){
-        alert("handled was click .....")
+      
     }
     return (
         <div>
