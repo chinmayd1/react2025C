@@ -7,10 +7,11 @@ import './index.css';
 // import HelloClass from './HelloClass';
 // import FunctionClick from './FunctionClick';
 import Greetings from './Greetings';
-
 import Welcome from './Welcome';
 import reportWebVitals from './reportWebVitals';
-
+import Propone from './Propone';
+import PropTwo from './Proptwo';
+import Propthree from './Propthree';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,9 +22,17 @@ root.render(
     <Hello/>
     <HelloClass/>
     <FunctionClick/> */}
-    <Greetings name ="chinmay" course="react" language = "marathi"/> 
+    {/* <Greetings name ="chinmay" course="react" language = "marathi"/> 
     <Greetings name ="sarika" course="pansare" language = "marathi"/>
-    <Greetings name ="ninad" course="dani" language = "marathi"/>
+    <Greetings name ="ninad" course="dani" language = "marathi"/> */}
+      <Propone name ="chinmay"/>
+      <Propone name = "sarika"/>
+      <Propone name = "ram"/>
+      <PropTwo title = "minskole" subtitle = "react"/>
+      <PropTwo title = "minskole"/>
+      <Propthree label='Sumbit'/>
+      <Propthree/>
+
   </React.StrictMode>
 );
 
