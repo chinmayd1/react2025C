@@ -12,6 +12,8 @@ import reportWebVitals from './reportWebVitals';
 import Propone from './Propone';
 import PropTwo from './Proptwo';
 import Propthree from './Propthree';
+import Propfour from './Propfour';
+import Propfive from './Propfive';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +34,16 @@ root.render(
       <PropTwo title = "minskole"/>
       <Propthree label='Sumbit'/>
       <Propthree/>
+      <Propfour label="Email"  type="email" placeholder="you@example.com" required/>
+      <Propfour label="Password" type = "password" minLength="6"/>
+      <Propfive>
+          <h3>Welcome to minskole</h3>
+          <p>This is react class</p>
+      </Propfive>
+      <Propfive>
+          <h3>Welcome to Minskole 2</h3>
+          <p>This is react class para 2</p>
+      </Propfive>
 
   </React.StrictMode>
 );
