@@ -14,6 +14,7 @@ import PropTwo from './Proptwo';
 import Propthree from './Propthree';
 import Propfour from './Propfour';
 import Propfive from './Propfive';
+import Propsix from './Propsix';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -44,6 +45,11 @@ root.render(
           <h3>Welcome to Minskole 2</h3>
           <p>This is react class para 2</p>
       </Propfive>
+      <>
+        <Propsix varaint='info'>This is info</Propsix>
+        <Propsix varaint='warning'>This is warning</Propsix>
+        <Propsix varaint='error'>This is Error</Propsix>
+      </>
 
   </React.StrictMode>
 );
